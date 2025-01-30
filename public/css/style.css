@@ -1,6 +1,29 @@
 html {
     box-sizing: border-box;
   }
-  *, *:before, *:after {
+  *, 
+  *:before, 
+  *:after {
     box-sizing: inherit;
   }
+
+  body {
+  font-family: "Playfair Display", serif;
+  }
+
+
+  /* div{
+    border:1px solid plum;
+  } */
+
+
+  .area {
+    min-height:750px;
+  }
+
+  .spacer {
+    min-height: 75px;
+  }
+
+  
+  
