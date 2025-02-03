@@ -18,7 +18,7 @@ app.get("/projects", (req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-  res.render("projects.ejs");
+  res.render("contacts.ejs");
 });
 
 app.post("/mail", async (req, res) => {
