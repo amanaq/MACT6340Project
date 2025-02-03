@@ -17,6 +17,10 @@ app.get("/projects", (req, res) => {
   res.render("projects.ejs");
 });
 
+app.get("/contact", (req, res) => {
+  res.render("projects.ejs");
+});
+
 app.post("/mail", async (req, res) => {
   await utils
     .sendMessage(req.body.sub, req.body.txt)
