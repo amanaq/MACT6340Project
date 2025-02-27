@@ -46,7 +46,7 @@ app.post("/mail", async (req, res) => {
 });
 
 
-app.use(async (err, req, res) => {
+app.use(async (err, req, res, next) => {
   console.log(err);
   res.render("error.ejs");
   
